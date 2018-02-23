@@ -1,0 +1,31 @@
+table {
+    border-collapse: collapse;
+    border-spacing: 2px;
+    border-color: grey;
+    border: 1px solid grey;
+}
+td, th {
+    text-align: center;
+    border: 1px solid grey;
+}
+
+/* #main tr:nth-child(even) {
+    background-color: #f2f2f2;
+}   */
+
+[id^="sort_"] {
+    background-image: url('./sort.png');
+    background-size: 15px 15px;
+    display: right;
+    height: 15px;  
+    width: 15px;
+    float: right;
+
+}
+image {
+    margin-top: -5px
+}
+
+  
+  
+
